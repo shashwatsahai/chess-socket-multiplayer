@@ -111,7 +111,7 @@ function updateStatus () {
 
 $("html").click(function () {
     if (!board) {
-       
+       $(".click").remove();
         var config = {
             draggable: true,
             position: 'start',
