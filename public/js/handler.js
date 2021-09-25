@@ -1,6 +1,6 @@
 
  let turn = 0;
-const socket = io.connect('http://'+window.location.host);
+const socket = io.connect('https://'+window.location.host);
 
 
 function onDragMove(newLocation,oldLocation,source,piece,position,orientation) {
